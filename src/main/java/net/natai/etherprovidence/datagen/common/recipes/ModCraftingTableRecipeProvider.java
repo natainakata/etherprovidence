@@ -1,4 +1,4 @@
-package net.natai.modtemplate.datagen.common.recipes;
+package net.natai.etherprovidence.datagen.common.recipes;
 
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.IFinishedRecipe;
@@ -8,8 +8,8 @@ import javax.annotation.ParametersAreNonnullByDefault;
 import java.util.function.Consumer;
 
 @ParametersAreNonnullByDefault
-public class ModFurnaceRecipeProvider extends RecipeProvider {
-    public ModFurnaceRecipeProvider(DataGenerator gen) {
+public class ModCraftingTableRecipeProvider extends RecipeProvider {
+    public ModCraftingTableRecipeProvider(DataGenerator gen) {
         super(gen);
     }
 

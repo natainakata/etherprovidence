@@ -1,4 +1,4 @@
-package net.natai.modtemplate.datagen.client.models;
+package net.natai.etherprovidence.datagen.client.models;
 
 import net.minecraft.data.DataGenerator;
 import net.minecraft.item.Item;

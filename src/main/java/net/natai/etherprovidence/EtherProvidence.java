@@ -1,4 +1,4 @@
-package net.natai.modtemplate;
+package net.natai.etherprovidence;
 
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.MinecraftForge;
@@ -8,22 +8,22 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.*;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.natai.modtemplate.datagen.client.lang.ModEnUsLanguageProvider;
-import net.natai.modtemplate.datagen.client.lang.ModJaJpLanguageProvider;
-import net.natai.modtemplate.datagen.client.models.ModBlockStateProvider;
-import net.natai.modtemplate.datagen.client.models.ModItemModelProvider;
-import net.natai.modtemplate.datagen.common.loottables.ModBlockLootTableProvider;
-import net.natai.modtemplate.datagen.common.recipes.ModCraftingTableRecipeProvider;
-import net.natai.modtemplate.datagen.common.recipes.ModFurnaceRecipeProvider;
+import net.natai.etherprovidence.datagen.client.lang.ModEnUsLanguageProvider;
+import net.natai.etherprovidence.datagen.client.lang.ModJaJpLanguageProvider;
+import net.natai.etherprovidence.datagen.client.models.ModBlockStateProvider;
+import net.natai.etherprovidence.datagen.client.models.ModItemModelProvider;
+import net.natai.etherprovidence.datagen.common.loottables.ModBlockLootTableProvider;
+import net.natai.etherprovidence.datagen.common.recipes.ModCraftingTableRecipeProvider;
+import net.natai.etherprovidence.datagen.common.recipes.ModFurnaceRecipeProvider;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod(ModTemplate.MOD_ID)
-public class ModTemplate {
-    public static final String MOD_ID = "modtemplate";
+@Mod(EtherProvidence.MOD_ID)
+public class EtherProvidence {
+    public static final String MOD_ID = "etherprovidence";
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public ModTemplate() {
+    public EtherProvidence() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ItemInit.register(modEventBus);
         BlockInit.register(modEventBus);

@@ -1,4 +1,4 @@
-package net.natai.modtemplate.datagen.client.lang;
+package net.natai.etherprovidence.datagen.client.lang;
 
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.LanguageProvider;
